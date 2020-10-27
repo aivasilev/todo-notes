@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-const axios = Axios.create({ baseURL: 'http://localhost/' });
+const axios = Axios.create({ baseURL: 'https://cs-todo-notes.herokuapp.com/' });
 // Returns data
 export const getFromDB = (type, params) => {
   return axios
