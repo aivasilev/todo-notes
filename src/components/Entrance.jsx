@@ -78,7 +78,6 @@ const Entrance = ({
                   onKeyUp={(e) => handleEnterPress(e)}
                 />
               </div>
-              ,
               <button css={[GreenButton, tw`my-2`]} onClick={handleRegisterBtnPress}>
                 Register
               </button>
